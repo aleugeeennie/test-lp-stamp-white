@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>STAMP!DA — Elige tu horario</title>
+  <meta name="description" content="¡Casi listo! Elige el horario de tu cita STAMP!DA y confirma tu transformación.">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="gracias">
+
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <nav class="nav container">
+      <a class="nav__logo" href="index.html"><img src="assets/logo-stampida.png" alt="STAMP!DA"></a>
+      <a class="btn btn--ghost btn--sm" href="index.html">← Volver al inicio</a>
+    </nav>
+  </header>
+
+  <!-- ===== THANK YOU ===== -->
+  <section class="thanks">
+    <div class="thanks__glow"></div>
+    <div class="thanks__grid">
+      <div class="thanks__copy">
+        <span class="eyebrow">Solicitud recibida</span>
+        <h1 class="h2" id="thanksGreet">¡Ya casi!</h1>
+        <p class="lead" style="margin-top:.4rem">Recibimos tu solicitud. Último paso: elige el horario que te quede mejor y tu cita queda confirmada al instante.</p>
+        <p class="chip" id="thanksResumen" style="display:none;width:max-content;max-width:100%"></p>
+        <ul class="thanks__steps">
+          <li><span class="n">1</span> Elige día y hora en el calendario.</li>
+          <li><span class="n">2</span> Recibe la confirmación al instante.</li>
+          <li><span class="n">3</span> Llega a tu cita y aterrizamos tu diseño.</li>
+        </ul>
+        <div class="chips" style="margin-top:.6rem">
+          <span class="chip">✓ Sin compromiso</span>
+          <span class="chip">✓ Cotización sin costo</span>
+        </div>
+      </div>
+
+      <!-- Embed de Calendly (lo inyecta js/script.js; respaldo por WhatsApp si está pendiente) -->
+      <div class="cal-card" id="calCard"></div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer__grid">
+      <div class="footer__col">
+        <img src="assets/logo-stampida.png" alt="STAMP!DA">
+        <p>Wrap, PPF, personalización y protección automotriz premium en CDMX. Tu auto, como siempre lo imaginaste.</p>
+        <small>© STAMP!DA. Todos los derechos reservados.</small>
+      </div>
+      <div class="footer__col">
+        <strong>STAMP!DA</strong>
+        <a href="https://stampida.app/" target="_blank" rel="noopener">Web</a>
+        <a href="https://www.stampida.mx" target="_blank" rel="noopener">Catálogo</a>
+        <a href="https://stampida.app/?page_id=3" target="_blank" rel="noopener">Aviso de privacidad</a>
+      </div>
+      <div class="footer__col">
+        <strong>Redes</strong>
+        <a href="https://www.instagram.com/stampidamx" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.tiktok.com/@stampidamx" target="_blank" rel="noopener">TikTok</a>
+        <a href="https://facebook.com/stampidaapp" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://wa.me/525551720748?text=Quiero%20agendar" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+      <div class="footer__col">
+        <strong>Descarga la app</strong>
+        <a href="https://ios.stampida.app" target="_blank" rel="noopener"><img class="store-badge" src="assets/app-store-badge.svg" alt="Descárgalo en el App Store"></a>
+        <a href="https://play.stampida.app" target="_blank" rel="noopener"><img class="store-badge" src="assets/google-play-badge.svg" alt="Disponible en Google Play"></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
