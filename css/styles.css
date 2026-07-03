@@ -12,7 +12,7 @@
   --muted-2:#918573;
   --line:rgba(170,132,57,.22);
   --line-soft:rgba(170,132,57,.12);
-  --panel:linear-gradient(180deg,rgba(255,255,255,.96),rgba(248,241,228,.92));
+  --panel:linear-gradient(180deg,rgba(218, 218, 218, 0.96),rgba(199, 199, 199, 0.92));
   --red:#f20000;
   --red-2:#b30b0b;
   --grad:linear-gradient(135deg,#d82525,#a80000);
