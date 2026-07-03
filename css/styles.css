@@ -13,10 +13,10 @@
   --line:rgba(170,132,57,.22);
   --line-soft:rgba(170,132,57,.12);
   --panel:linear-gradient(180deg,rgba(255,255,255,.96),rgba(248,241,228,.92));
-  --red:#af812e;
-  --red-2:#d8bc77;
-  --grad:linear-gradient(135deg,#a97928,#d8bc77);
-  --gold:#af812e;
+  --red:#f20000;
+  --red-2:#b30b0b;
+  --grad:linear-gradient(135deg,#d82525,#a80000);
+  --gold:#ff0000;
   --sans:'Inter',system-ui,-apple-system,Segoe UI,sans-serif;
   --display:'Space Grotesk',sans-serif;
   --wrap:min(100% - 32px,1180px);
